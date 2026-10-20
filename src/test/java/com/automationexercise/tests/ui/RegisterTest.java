@@ -129,7 +129,7 @@ public class RegisterTest extends BaseTest {
         testData = new JsonReader("register-data");
     }
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setup(){
         driver = new GUIDriver();
        new NavigationBarComponent(driver).navigate();
@@ -139,7 +139,7 @@ public class RegisterTest extends BaseTest {
 
 
     }
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown(){
         driver.quitDriver();
 
