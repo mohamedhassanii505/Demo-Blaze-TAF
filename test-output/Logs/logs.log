@@ -1,0 +1,139 @@
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\allure.properties
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\environment.properties
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\log4j2.properties
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\seleniumGrid.properties
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\video.properties
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\wait.properties
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\webapp.properties
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.FileUtils] - Directory cleaned successfully: F:\software testing\automaion practical\DemoBlazeTAF\test-output\allure-results
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.FileUtils] - Directory cleaned successfully: F:\software testing\automaion practical\DemoBlazeTAF\test-output\screenshots
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.FileUtils] - Directory cleaned successfully: F:\software testing\automaion practical\DemoBlazeTAF\test-output\recordings
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.FileUtils] - Directory cleaned successfully: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\downloads
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.listeners.TestNGListeners] - Test Execution Started
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.listeners.TestNGListeners] - Test Output Directories Cleaned
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.FileUtils] - Directory created:test-output/screenshots/
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.FileUtils] - Directory created:test-output/recordings/
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.FileUtils] - Directory created:src/main/resources/downloads/
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.listeners.TestNGListeners] - Test Output Directories Created
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\allure.properties
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\environment.properties
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\log4j2.properties
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\seleniumGrid.properties
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\video.properties
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\wait.properties
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\webapp.properties
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.listeners.TestNGListeners] - Properties Loaded
+[INFO] - [16-10-2026 18:18:48] [main] [com.automationexercise.utils.report.AllureEnvironmentManager] - Allure environment variables set
+[INFO] - [16-10-2026 18:18:50] [main] [com.automationexercise.utils.report.AllureBinaryManager] - Allure binaries already exist
+[INFO] - [16-10-2026 18:18:50] [main] [com.automationexercise.listeners.TestNGListeners] - Allure Environment Variables Set
+[INFO] - [16-10-2026 18:18:50] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [16-10-2026 18:18:50] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [16-10-2026 18:18:55] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [16-10-2026 18:18:56] [main] [com.automationexercise.listeners.TestNGListeners] - Test case ValidSignUpTC started
+[DEBUG] - [16-10-2026 18:18:56] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [16-10-2026 18:18:56] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [16-10-2026 18:18:56] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/login
+[DEBUG] - [16-10-2026 18:18:56] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[INFO] - [16-10-2026 18:18:56] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Testinto elementBy.cssSelector: [data-qa='signup-name']
+[INFO] - [16-10-2026 18:18:57] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:automationtest_1792163936126@gmail.cominto elementBy.cssSelector: [data-qa='signup-email']
+[INFO] - [16-10-2026 18:18:57] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (775, 404)
+[INFO] - [16-10-2026 18:18:57] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (775, 404)
+[INFO] - [16-10-2026 18:18:57] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: [data-qa='signup-button']
+[DEBUG] - [16-10-2026 18:18:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [16-10-2026 18:18:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [16-10-2026 18:18:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [16-10-2026 18:18:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [16-10-2026 18:18:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [16-10-2026 18:18:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [16-10-2026 18:18:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [16-10-2026 18:18:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [16-10-2026 18:18:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [16-10-2026 18:18:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [16-10-2026 18:18:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [16-10-2026 18:18:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [16-10-2026 18:18:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [16-10-2026 18:18:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [16-10-2026 18:18:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [16-10-2026 18:18:57] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (307, 323)
+[INFO] - [16-10-2026 18:18:57] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (307, 323)
+[INFO] - [16-10-2026 18:18:57] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //input[@value='Mr']
+[INFO] - [16-10-2026 18:18:57] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:P@ssw0rdinto elementBy.id: password
+[INFO] - [16-10-2026 18:18:57] [main] [com.automationexercise.utils.actions.ElementActions] - Selected value:  '1' from dropdown element: By.id: days
+[INFO] - [16-10-2026 18:18:57] [main] [com.automationexercise.utils.actions.ElementActions] - Selected value:  'January' from dropdown element: By.id: months
+[INFO] - [16-10-2026 18:18:58] [main] [com.automationexercise.utils.actions.ElementActions] - Selected value:  '2000' from dropdown element: By.id: years
+[INFO] - [16-10-2026 18:18:58] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (287, 672)
+[INFO] - [16-10-2026 18:18:58] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (287, 672)
+[INFO] - [16-10-2026 18:18:58] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.id: newsletter
+[INFO] - [16-10-2026 18:18:58] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (287, 697)
+[INFO] - [16-10-2026 18:18:58] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (287, 697)
+[INFO] - [16-10-2026 18:18:58] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.id: optin
+[INFO] - [16-10-2026 18:18:58] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Firstnameinto elementBy.cssSelector: [data-qa='first_name']
+[INFO] - [16-10-2026 18:18:58] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Lastnameinto elementBy.cssSelector: [data-qa='last_name']
+[INFO] - [16-10-2026 18:18:58] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Companyinto elementBy.cssSelector: [data-qa='company']
+[INFO] - [16-10-2026 18:18:59] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Address1into elementBy.cssSelector: [data-qa='address']
+[INFO] - [16-10-2026 18:18:59] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Address2into elementBy.cssSelector: [data-qa='address2']
+[INFO] - [16-10-2026 18:18:59] [main] [com.automationexercise.utils.actions.ElementActions] - Selected value:  'India' from dropdown element: By.cssSelector: [data-qa='country']
+[INFO] - [16-10-2026 18:18:59] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Stateinto elementBy.cssSelector: [data-qa='state']
+[INFO] - [16-10-2026 18:18:59] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Cityinto elementBy.cssSelector: [data-qa='city']
+[INFO] - [16-10-2026 18:18:59] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:12345into elementBy.cssSelector: [data-qa='zipcode']
+[INFO] - [16-10-2026 18:18:59] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:1234567890into elementBy.cssSelector: [data-qa='mobile_number']
+[INFO] - [16-10-2026 18:18:59] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (287, 1627)
+[INFO] - [16-10-2026 18:18:59] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (287, 1627)
+[INFO] - [16-10-2026 18:19:00] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: [data-qa='create-account']
+[INFO] - [16-10-2026 18:19:03] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [16-10-2026 18:19:04] [main] [com.automationexercise.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [16-10-2026 18:19:04] [main] [com.automationexercise.listeners.TestNGListeners] - Test case ValidSignUpTCpassed
+[INFO] - [16-10-2026 18:19:04] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [16-10-2026 18:19:04] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [16-10-2026 18:19:06] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [16-10-2026 18:19:06] [main] [com.automationexercise.listeners.TestNGListeners] - Test case verifyErrorMessageWhenAccountCreatedBefore started
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [16-10-2026 18:19:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [16-10-2026 18:19:07] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [16-10-2026 18:19:08] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/login
+[DEBUG] - [16-10-2026 18:19:08] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[INFO] - [16-10-2026 18:19:08] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Testinto elementBy.cssSelector: [data-qa='signup-name']
+[INFO] - [16-10-2026 18:19:08] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:automationtest_1792163946890@gmail.cominto elementBy.cssSelector: [data-qa='signup-email']
+[INFO] - [16-10-2026 18:19:08] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (775, 404)
+[INFO] - [16-10-2026 18:19:08] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (775, 404)
+[INFO] - [16-10-2026 18:19:08] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: [data-qa='signup-button']
+[DEBUG] - [16-10-2026 18:19:08] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['errorSignup']
+[ERROR] - [16-10-2026 18:19:09] [main] [com.automationexercise.utils.actions.ElementActions] - Failed to retrieve text from element: By.cssSelector: .signup-form  p no such element: Unable to locate element: {"method":"css selector","selector":".signup-form  p"}
+  (Session info: chrome=155.0.8059.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.49.0', revision: 'bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ca74d61624c0aa895cf9397886faeac, findElement {value=.signup-form  p, using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 155.0.8059.80, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63624}, goog:processID: 16736, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63624/devtoo..., se:cdpVersion: 155.0.8059.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ca74d61624c0aa895cf9397886faeac
+[INFO] - [16-10-2026 18:19:09] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .signup-form  ptextEmail Address already exist!
+[INFO] - [16-10-2026 18:19:09] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [16-10-2026 18:19:09] [main] [com.automationexercise.media.ScreenshotsManager] - Capturing Screenshot Succeeded
+[INFO] - [16-10-2026 18:19:09] [main] [com.automationexercise.listeners.TestNGListeners] - Test case verifyErrorMessageWhenAccountCreatedBeforepassed
+[INFO] - [16-10-2026 18:19:09] [main] [com.automationexercise.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [16-10-2026 18:19:09] [main] [com.automationexercise.utils.TerminalUtils] - Executing command: C:\Users\mohamed hassan\.m2\repository\allure\allure-2.46.1\bin\allure.bat generate F:\software testing\automaion practical\DemoBlazeTAF\test-output\allure-results -o F:\software testing\automaion practical\DemoBlazeTAF\test-output\full-report --clean
+[INFO] - [16-10-2026 18:19:12] [main] [com.automationexercise.FileUtils] - Directory copied successfully.F:\software testing\automaion practical\DemoBlazeTAF\test-output\allure-results\history
+[INFO] - [16-10-2026 18:19:12] [main] [com.automationexercise.utils.TerminalUtils] - Executing command: C:\Users\mohamed hassan\.m2\repository\allure\allure-2.46.1\bin\allure.bat generate F:\software testing\automaion practical\DemoBlazeTAF\test-output\allure-results -o F:\software testing\automaion practical\DemoBlazeTAF\test-output\reports --clean --single-file
+[INFO] - [16-10-2026 18:19:13] [main] [com.automationexercise.FileUtils] - Target File Path: "F:\software testing\automaion practical\DemoBlazeTAF\test-output\reports\index.html", file was renamed to "AllureReport_2026-10-16_06-19-13.html".

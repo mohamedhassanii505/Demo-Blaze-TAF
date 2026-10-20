@@ -1,0 +1,68 @@
+{
+  "paymentData":
+  {
+    "nameOnCard": "automation test",
+    "cardNumber": "1234567890123456",
+    "cvc": "123",
+    "expirationMonth": "12",
+    "expirationYear": "2028"
+
+  },
+  "messages":
+{
+  "orderPlacedSuccessfully": "Your order has been placed successfully!",
+  "orderConfirmed": "Congratulations! Your order has been confirmed!",
+  "commentOfOrder": "good product",
+  "addedToCart": "Your product has been added to cart.",
+  "errorSignup" : "Email Address already exist!"
+
+
+},
+
+
+
+
+  "name": "Automation_Checkout",
+  "email": "automationcheckout_",
+
+  "titleMale": "Mr",
+  "titleFemale": "Mrs",
+  "password": "P@ssw0rd",
+  "day": "1",
+  "month": "January",
+  "year": "2000",
+  "firstName": "Automation_Firstname",
+  "lastName": "Automation_Lastname",
+  "company": "Automation_Company",
+  "address1": "Automation_Address1",
+  "address2": "Automation_Address2",
+  "country": "India",
+  "state": "Automation_State",
+  "city": "Automation_City",
+  "zipcode": "12345",
+  "mobileNumber": "1234567890",
+
+  "product1":
+  {
+    "name": "Men Tshirt",
+    "price": "Rs. 400",
+    "quantity": "1",
+    "totalPrice": "Rs. 400"
+  },
+  "invoiceName": "invoice.txt"
+
+
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+

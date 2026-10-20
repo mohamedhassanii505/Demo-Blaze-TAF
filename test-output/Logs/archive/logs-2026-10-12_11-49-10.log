@@ -1,0 +1,86 @@
+[DEBUG] - [12-10-2026 23:48:53] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\mohamed hassan\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\allure.properties
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\environment.properties
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\log4j2.properties
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\seleniumGrid.properties
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\video.properties
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\wait.properties
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\webapp.properties
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.FileUtils] - Directory cleaned successfully: F:\software testing\automaion practical\DemoBlazeTAF\test-output\allure-results
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.FileUtils] - Directory cleaned successfully: F:\software testing\automaion practical\DemoBlazeTAF\test-output\screenshots
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.FileUtils] - Directory cleaned successfully: F:\software testing\automaion practical\DemoBlazeTAF\test-output\recordings
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.FileUtils] - Directory cleaned successfully: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\downloads
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.listeners.TestNGListeners] - Test Execution Started
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.listeners.TestNGListeners] - Test Output Directories Cleaned
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.FileUtils] - Directory created:test-output/screenshots/
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.FileUtils] - Directory created:test-output/recordings/
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.FileUtils] - Directory created:src/main/resources/downloads/
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.listeners.TestNGListeners] - Test Output Directories Created
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\allure.properties
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\environment.properties
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\log4j2.properties
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\seleniumGrid.properties
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\video.properties
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\wait.properties
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\webapp.properties
+[INFO] - [12-10-2026 23:48:54] [main] [com.automationexercise.listeners.TestNGListeners] - Properties Loaded
+[INFO] - [12-10-2026 23:48:55] [main] [com.automationexercise.utils.report.AllureEnvironmentManager] - Allure environment variables set
+[INFO] - [12-10-2026 23:48:57] [main] [com.automationexercise.utils.report.AllureBinaryManager] - Allure binaries already exist
+[INFO] - [12-10-2026 23:48:57] [main] [com.automationexercise.listeners.TestNGListeners] - Allure Environment Variables Set
+[INFO] - [12-10-2026 23:48:57] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\mohamed hassan\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] - [12-10-2026 23:48:57] [main] [com.automationexercise.listeners.TestNGListeners] - Test status: 1
+[INFO] - [12-10-2026 23:48:57] [main] [com.automationexercise.listeners.TestNGListeners] - Test instance: com.automationexercise.tests.ui.ProductsTest
+[INFO] - [12-10-2026 23:48:57] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:48:57] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:49:00] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:49:00] [main] [com.automationexercise.listeners.TestNGListeners] - Test status: 1
+[INFO] - [12-10-2026 23:49:00] [main] [com.automationexercise.listeners.TestNGListeners] - Test instance: com.automationexercise.tests.ui.ProductsTest
+[INFO] - [12-10-2026 23:49:00] [main] [com.automationexercise.listeners.TestNGListeners] - Test case addProductToCartWithoutLoginTCstarted
+[INFO] - [12-10-2026 23:49:00] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/products
+[DEBUG] - [12-10-2026 23:49:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[INFO] - [12-10-2026 23:49:01] [main] [com.automationexercise.utils.actions.ElementActions] - Hovered over element:By.xpath: //div[@class='productinfo text-center']/p[.='Men Tshirt']
+[INFO] - [12-10-2026 23:49:01] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (856, 701)
+[INFO] - [12-10-2026 23:49:01] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (856, 746)
+[INFO] - [12-10-2026 23:49:01] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (856, 884)
+[INFO] - [12-10-2026 23:49:01] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (856, 884)
+[INFO] - [12-10-2026 23:49:01] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //div[@class='overlay-content']/p[.='Men Tshirt']//following-sibling::a
+[DEBUG] - [12-10-2026 23:49:01] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['addedToCart']
+[INFO] - [12-10-2026 23:49:01] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:49:01] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:49:01] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptextYour product has been added to cart.
+[INFO] - [12-10-2026 23:49:01] [main] [com.automationexercise.pages.components.ProductsPage] - Validating item added label text. Expected: Your product has been added to cart., Actual: Your product has been added to cart.
+[INFO] - [12-10-2026 23:49:01] [main] [com.automationexercise.listeners.TestNGListeners] - Test status: 1
+[INFO] - [12-10-2026 23:49:01] [main] [com.automationexercise.listeners.TestNGListeners] - Test instance: com.automationexercise.tests.ui.ProductsTest
+[INFO] - [12-10-2026 23:49:02] [main] [com.automationexercise.listeners.TestNGListeners] - Test case addProductToCartWithoutLoginTCpassed
+[INFO] - [12-10-2026 23:49:02] [main] [com.automationexercise.listeners.TestNGListeners] - Test status: 1
+[INFO] - [12-10-2026 23:49:02] [main] [com.automationexercise.listeners.TestNGListeners] - Test instance: com.automationexercise.tests.ui.ProductsTest
+[INFO] - [12-10-2026 23:49:02] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:49:02] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:49:03] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:49:03] [main] [com.automationexercise.listeners.TestNGListeners] - Test status: 1
+[INFO] - [12-10-2026 23:49:03] [main] [com.automationexercise.listeners.TestNGListeners] - Test instance: com.automationexercise.tests.ui.ProductsTest
+[INFO] - [12-10-2026 23:49:03] [main] [com.automationexercise.listeners.TestNGListeners] - Test case searchForProductWithoutLoginTCstarted
+[INFO] - [12-10-2026 23:49:04] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/products
+[DEBUG] - [12-10-2026 23:49:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['searchedProduct']['name']
+[INFO] - [12-10-2026 23:49:04] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Blue Topinto elementBy.id: search_product
+[INFO] - [12-10-2026 23:49:04] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (594, 453)
+[INFO] - [12-10-2026 23:49:04] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (594, 453)
+[INFO] - [12-10-2026 23:49:05] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.id: submit_search
+[INFO] - [12-10-2026 23:49:05] [main] [com.automationexercise.utils.actions.ElementActions] - Hovered over element:By.xpath: //div[@class='productinfo text-center']/p[.='Blue Top']
+[DEBUG] - [12-10-2026 23:49:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['searchedProduct']['name']
+[DEBUG] - [12-10-2026 23:49:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['searchedProduct']['price']
+[INFO] - [12-10-2026 23:49:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //div[@class='overlay-content']/p[.='Blue Top']textBlue Top
+[INFO] - [12-10-2026 23:49:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //div[@class='overlay-content']/p[.='Blue Top']//preceding-sibling::h2textRs. 500
+[INFO] - [12-10-2026 23:49:05] [main] [com.automationexercise.pages.components.ProductsPage] - Validating product details for product: Blue Top with price: Rs. 500
+[INFO] - [12-10-2026 23:49:05] [main] [com.automationexercise.listeners.TestNGListeners] - Test status: 1
+[INFO] - [12-10-2026 23:49:05] [main] [com.automationexercise.listeners.TestNGListeners] - Test instance: com.automationexercise.tests.ui.ProductsTest
+[INFO] - [12-10-2026 23:49:05] [main] [com.automationexercise.listeners.TestNGListeners] - Test case searchForProductWithoutLoginTCpassed
+[INFO] - [12-10-2026 23:49:05] [main] [com.automationexercise.listeners.TestNGListeners] - Test status: 1
+[INFO] - [12-10-2026 23:49:05] [main] [com.automationexercise.listeners.TestNGListeners] - Test instance: com.automationexercise.tests.ui.ProductsTest
+[INFO] - [12-10-2026 23:49:05] [main] [com.automationexercise.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [12-10-2026 23:49:05] [main] [com.automationexercise.utils.TerminalUtils] - Executing command: C:\Users\mohamed hassan\.m2\repository\allure\allure-2.46.1\bin\allure.bat generate F:\software testing\automaion practical\DemoBlazeTAF\test-output\allure-results -o F:\software testing\automaion practical\DemoBlazeTAF\test-output\full-report --clean
+[INFO] - [12-10-2026 23:49:07] [main] [com.automationexercise.FileUtils] - Directory copied successfully.F:\software testing\automaion practical\DemoBlazeTAF\test-output\allure-results\history
+[INFO] - [12-10-2026 23:49:07] [main] [com.automationexercise.utils.TerminalUtils] - Executing command: C:\Users\mohamed hassan\.m2\repository\allure\allure-2.46.1\bin\allure.bat generate F:\software testing\automaion practical\DemoBlazeTAF\test-output\allure-results -o F:\software testing\automaion practical\DemoBlazeTAF\test-output\reports --clean --single-file
+[INFO] - [12-10-2026 23:49:09] [main] [com.automationexercise.FileUtils] - Target File Path: "F:\software testing\automaion practical\DemoBlazeTAF\test-output\reports\index.html", file was renamed to "AllureReport_2026-10-12_11-49-09.html".

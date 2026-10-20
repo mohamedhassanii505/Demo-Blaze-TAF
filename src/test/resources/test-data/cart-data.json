@@ -1,0 +1,16 @@
+{
+  "product1":
+  {
+    "name": "Men Tshirt",
+    "price": "Rs. 400",
+    "quantity": "2",
+    "totalPrice": "Rs. 800"
+  },
+
+  "messages":
+  {
+    "addedToCart": "Your product has been added to cart."
+
+  }
+
+}

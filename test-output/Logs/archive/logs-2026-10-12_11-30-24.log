@@ -1,0 +1,823 @@
+[INFO] - [12-10-2026 23:28:29] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\allure.properties
+[INFO] - [12-10-2026 23:28:29] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\environment.properties
+[INFO] - [12-10-2026 23:28:29] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\log4j2.properties
+[INFO] - [12-10-2026 23:28:29] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\seleniumGrid.properties
+[INFO] - [12-10-2026 23:28:29] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\video.properties
+[INFO] - [12-10-2026 23:28:29] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\wait.properties
+[INFO] - [12-10-2026 23:28:29] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\webapp.properties
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.FileUtils] - Directory cleaned successfully: F:\software testing\automaion practical\DemoBlazeTAF\test-output\allure-results
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.FileUtils] - Directory cleaned successfully: F:\software testing\automaion practical\DemoBlazeTAF\test-output\screenshots
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.FileUtils] - Directory cleaned successfully: F:\software testing\automaion practical\DemoBlazeTAF\test-output\recordings
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.FileUtils] - Directory cleaned successfully: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\downloads
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.listeners.TestNGListeners] - Test Execution Started
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.listeners.TestNGListeners] - Test Output Directories Cleaned
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.FileUtils] - Directory created:test-output/screenshots/
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.FileUtils] - Directory created:test-output/recordings/
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.FileUtils] - Directory created:src/main/resources/downloads/
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.listeners.TestNGListeners] - Test Output Directories Created
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\allure.properties
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\environment.properties
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\log4j2.properties
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\seleniumGrid.properties
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\video.properties
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\wait.properties
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.utils.dataReader.PropertyReader] - Loaded properties file: F:\software testing\automaion practical\DemoBlazeTAF\src\main\resources\webapp.properties
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.listeners.TestNGListeners] - Properties Loaded
+[INFO] - [12-10-2026 23:28:30] [main] [com.automationexercise.utils.report.AllureEnvironmentManager] - Allure environment variables set
+[INFO] - [12-10-2026 23:28:31] [main] [com.automationexercise.utils.report.AllureBinaryManager] - Allure binaries already exist
+[INFO] - [12-10-2026 23:28:31] [main] [com.automationexercise.listeners.TestNGListeners] - Allure Environment Variables Set
+[INFO] - [12-10-2026 23:28:31] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:28:31] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:28:37] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:28:38] [main] [com.automationexercise.listeners.TestNGListeners] - Test case validateProductDetailsInViewCartPageWithoutLoginTCstarted
+[DEBUG] - [12-10-2026 23:28:38] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[INFO] - [12-10-2026 23:28:38] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (790, 1048)
+[INFO] - [12-10-2026 23:28:38] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (790, 1048)
+[INFO] - [12-10-2026 23:28:38] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //p[.='Men Tshirt']//following::div[@class='choose'][1]
+[DEBUG] - [12-10-2026 23:28:38] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['quantity']
+[INFO] - [12-10-2026 23:28:39] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:2into elementBy.xpath: //input[@name='quantity']
+[INFO] - [12-10-2026 23:28:39] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (1191, 278)
+[INFO] - [12-10-2026 23:28:39] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (1191, 278)
+[INFO] - [12-10-2026 23:28:39] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //button[@class='btn btn-default cart']
+[INFO] - [12-10-2026 23:28:39] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (0, 0)
+[INFO] - [12-10-2026 23:28:39] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (0, 0)
+[INFO] - [12-10-2026 23:28:39] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (0, 0)
+[INFO] - [12-10-2026 23:28:39] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (0, 0)
+[INFO] - [12-10-2026 23:28:39] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: p > [href="/view_cart"]
+[DEBUG] - [12-10-2026 23:28:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] - [12-10-2026 23:28:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['price']
+[DEBUG] - [12-10-2026 23:28:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['quantity']
+[DEBUG] - [12-10-2026 23:28:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['totalPrice']
+[INFO] - [12-10-2026 23:28:39] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //a[.='Men Tshirt']textMen Tshirt
+[INFO] - [12-10-2026 23:28:39] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: (//h4/a[.='Men Tshirt']//following::td[@class='cart_price']/p)[1]textRs. 400
+[INFO] - [12-10-2026 23:28:39] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: (//h4/a[.='Men Tshirt']//following::td[@class='cart_quantity']/button)[1]text2
+[INFO] - [12-10-2026 23:28:39] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //a[.='Men Tshirt']//following::p[@class='cart_total_price'][1]textRs. 800
+[INFO] - [12-10-2026 23:28:39] [main] [com.automationexercise.listeners.TestNGListeners] - Test case validateProductDetailsInViewCartPageWithoutLoginTCpassed
+[INFO] - [12-10-2026 23:28:40] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:28:40] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:28:41] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:28:41] [main] [com.automationexercise.listeners.TestNGListeners] - Test case verifyProductDetailsInCartWithoutLoginTCstarted
+[INFO] - [12-10-2026 23:28:42] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/products
+[DEBUG] - [12-10-2026 23:28:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[INFO] - [12-10-2026 23:28:42] [main] [com.automationexercise.utils.actions.ElementActions] - Hovered over element:By.xpath: //div[@class='productinfo text-center']/p[.='Men Tshirt']
+[INFO] - [12-10-2026 23:28:42] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (856, 582)
+[INFO] - [12-10-2026 23:28:42] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (856, 593)
+[INFO] - [12-10-2026 23:28:42] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (856, 658)
+[INFO] - [12-10-2026 23:28:42] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (856, 661)
+[INFO] - [12-10-2026 23:28:42] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (856, 883)
+[INFO] - [12-10-2026 23:28:42] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (856, 883)
+[INFO] - [12-10-2026 23:28:42] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //div[@class='overlay-content']/p[.='Men Tshirt']//following-sibling::a
+[DEBUG] - [12-10-2026 23:28:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['addedToCart']
+[INFO] - [12-10-2026 23:28:43] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:43] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:43] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:43] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:43] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:43] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:43] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:44] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:44] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:44] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:44] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:44] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:44] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:45] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:45] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:45] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:45] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:45] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:45] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:45] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:46] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:46] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:46] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:46] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:46] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:46] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:47] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:47] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:47] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:47] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:47] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:47] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:47] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:48] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:48] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:48] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:48] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:48] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:48] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:49] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:49] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:49] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:49] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:49] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:49] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:49] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:50] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:50] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:50] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:50] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:50] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:50] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:51] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:51] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:51] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:51] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:51] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:51] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:28:51] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptextYour product has been added to cart.
+[INFO] - [12-10-2026 23:28:51] [main] [com.automationexercise.pages.components.ProductsPage] - Validating item added label text. Expected: Your product has been added to cart., Actual: Your product has been added to cart.
+[INFO] - [12-10-2026 23:28:51] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (722, 796)
+[INFO] - [12-10-2026 23:28:52] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (722, 796)
+[INFO] - [12-10-2026 23:28:53] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: p > [href="/view_cart"]
+[DEBUG] - [12-10-2026 23:28:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] - [12-10-2026 23:28:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['price']
+[DEBUG] - [12-10-2026 23:28:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['quantity']
+[DEBUG] - [12-10-2026 23:28:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['totalPrice']
+[INFO] - [12-10-2026 23:28:54] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //a[.='Men Tshirt']textMen Tshirt
+[INFO] - [12-10-2026 23:28:54] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: (//h4/a[.='Men Tshirt']//following::td[@class='cart_price']/p)[1]textRs. 400
+[INFO] - [12-10-2026 23:28:54] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: (//h4/a[.='Men Tshirt']//following::td[@class='cart_quantity']/button)[1]text1
+[INFO] - [12-10-2026 23:28:54] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //a[.='Men Tshirt']//following::p[@class='cart_total_price'][1]textRs. 400
+[ERROR] - [12-10-2026 23:28:54] [main] [com.automationexercise.validations.Validation] - Assertion Failed: The following asserts failed:
+	product quantity does not match expected [2] but found [1],
+	product total price does not match expected [Rs. 800] but found [Rs. 400]
+[INFO] - [12-10-2026 23:28:54] [main] [com.automationexercise.listeners.TestNGListeners] - Test case verifyProductDetailsInCartWithoutLoginTCfailed
+[INFO] - [12-10-2026 23:28:54] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:28:54] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:28:56] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:28:56] [main] [com.automationexercise.listeners.TestNGListeners] - Test case registerNewAccountstarted
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [12-10-2026 23:28:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [12-10-2026 23:28:59] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [12-10-2026 23:29:00] [main] [com.automationexercise.listeners.TestNGListeners] - Test case registerNewAccountpassed
+[INFO] - [12-10-2026 23:29:00] [main] [com.automationexercise.listeners.TestNGListeners] - Test case loginToAccountstarted
+[INFO] - [12-10-2026 23:29:00] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/login
+[DEBUG] - [12-10-2026 23:29:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[INFO] - [12-10-2026 23:29:00] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:automationcheckout_1791836909877@gmail.cominto elementBy.cssSelector: [data-qa='login-email']
+[DEBUG] - [12-10-2026 23:29:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [12-10-2026 23:29:00] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:P@ssw0rdinto elementBy.xpath: //*[@data-qa='login-password']
+[INFO] - [12-10-2026 23:29:01] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (287, 417)
+[INFO] - [12-10-2026 23:29:01] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (287, 417)
+[INFO] - [12-10-2026 23:29:01] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: [data-qa='login-button']
+[DEBUG] - [12-10-2026 23:29:01] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[INFO] - [12-10-2026 23:29:01] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.tagName: btextAutomation_Checkout
+[INFO] - [12-10-2026 23:29:01] [main] [com.automationexercise.listeners.TestNGListeners] - Test case loginToAccountpassed
+[INFO] - [12-10-2026 23:29:02] [main] [com.automationexercise.listeners.TestNGListeners] - Test case addProductsToCartstarted
+[INFO] - [12-10-2026 23:29:02] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/products
+[DEBUG] - [12-10-2026 23:29:02] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[INFO] - [12-10-2026 23:29:02] [main] [com.automationexercise.utils.actions.ElementActions] - Hovered over element:By.xpath: //div[@class='productinfo text-center']/p[.='Men Tshirt']
+[INFO] - [12-10-2026 23:29:02] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (856, 593)
+[INFO] - [12-10-2026 23:29:02] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (856, 603)
+[INFO] - [12-10-2026 23:29:03] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (856, 855)
+[INFO] - [12-10-2026 23:29:03] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (856, 861)
+[INFO] - [12-10-2026 23:29:03] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (855, 884)
+[INFO] - [12-10-2026 23:29:03] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (855, 884)
+[INFO] - [12-10-2026 23:29:03] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //div[@class='overlay-content']/p[.='Men Tshirt']//following-sibling::a
+[DEBUG] - [12-10-2026 23:29:03] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['addedToCart']
+[INFO] - [12-10-2026 23:29:03] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:29:03] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:29:03] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptextYour product has been added to cart.
+[INFO] - [12-10-2026 23:29:03] [main] [com.automationexercise.pages.components.ProductsPage] - Validating item added label text. Expected: Your product has been added to cart., Actual: Your product has been added to cart.
+[INFO] - [12-10-2026 23:29:03] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (722, 797)
+[INFO] - [12-10-2026 23:29:03] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (722, 797)
+[INFO] - [12-10-2026 23:29:04] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: p > [href="/view_cart"]
+[DEBUG] - [12-10-2026 23:29:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] - [12-10-2026 23:29:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['price']
+[DEBUG] - [12-10-2026 23:29:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['quantity']
+[DEBUG] - [12-10-2026 23:29:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['totalPrice']
+[INFO] - [12-10-2026 23:29:04] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //a[.='Men Tshirt']textMen Tshirt
+[INFO] - [12-10-2026 23:29:04] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: (//h4/a[.='Men Tshirt']//following::td[@class='cart_price']/p)[1]textRs. 400
+[INFO] - [12-10-2026 23:29:04] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: (//h4/a[.='Men Tshirt']//following::td[@class='cart_quantity']/button)[1]text1
+[INFO] - [12-10-2026 23:29:04] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //a[.='Men Tshirt']//following::p[@class='cart_total_price'][1]textRs. 400
+[INFO] - [12-10-2026 23:29:04] [main] [com.automationexercise.listeners.TestNGListeners] - Test case addProductsToCartpassed
+[INFO] - [12-10-2026 23:29:04] [main] [com.automationexercise.listeners.TestNGListeners] - Test case checkoutstarted
+[INFO] - [12-10-2026 23:29:04] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (1105, 224)
+[INFO] - [12-10-2026 23:29:04] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (1105, 224)
+[INFO] - [12-10-2026 23:29:05] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //a[.='Proceed To Checkout']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [12-10-2026 23:29:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_firstname address_lastname']textMr. Automation_Firstname Automation_Lastname
+[INFO] - [12-10-2026 23:29:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_address1 address_address2'][1]textAutomation_Company
+[INFO] - [12-10-2026 23:29:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_address1 address_address2'][2]textAutomation_Address1
+[INFO] - [12-10-2026 23:29:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_address1 address_address2'][3]textAutomation_Address2
+[INFO] - [12-10-2026 23:29:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_city address_state_name address_postcode']text12345 Automation_City Automation_State
+[INFO] - [12-10-2026 23:29:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_country_name']textIndia
+[INFO] - [12-10-2026 23:29:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_phone']text1234567890
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [12-10-2026 23:29:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [12-10-2026 23:29:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_firstname address_lastname']textMr. Automation_Firstname Automation_Lastname
+[INFO] - [12-10-2026 23:29:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_address1 address_address2'][1]textAutomation_Company
+[INFO] - [12-10-2026 23:29:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_address1 address_address2'][2]textAutomation_Address1
+[INFO] - [12-10-2026 23:29:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_address1 address_address2'][3]textAutomation_Address2
+[INFO] - [12-10-2026 23:29:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_city address_state_name address_postcode']text12345 Automation_City Automation_State
+[INFO] - [12-10-2026 23:29:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_country_name']textIndia
+[INFO] - [12-10-2026 23:29:05] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_phone']text1234567890
+[INFO] - [12-10-2026 23:29:06] [main] [com.automationexercise.listeners.TestNGListeners] - Test case checkoutpassed
+[INFO] - [12-10-2026 23:29:06] [main] [com.automationexercise.listeners.TestNGListeners] - Test case deleteAccountAsPostConditionstarted
+[DEBUG] - [12-10-2026 23:29:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [12-10-2026 23:29:06] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [12-10-2026 23:29:06] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [12-10-2026 23:29:06] [main] [com.automationexercise.listeners.TestNGListeners] - Test case deleteAccountAsPostConditionpassed
+[INFO] - [12-10-2026 23:29:07] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:29:07] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:29:09] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:29:09] [main] [com.automationexercise.listeners.TestNGListeners] - Test case registerNewAccountstarted
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [12-10-2026 23:29:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [12-10-2026 23:29:10] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [12-10-2026 23:29:10] [main] [com.automationexercise.listeners.TestNGListeners] - Test case registerNewAccountpassed
+[INFO] - [12-10-2026 23:29:10] [main] [com.automationexercise.listeners.TestNGListeners] - Test case loginToAccountstarted
+[INFO] - [12-10-2026 23:29:11] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/login
+[DEBUG] - [12-10-2026 23:29:11] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[INFO] - [12-10-2026 23:29:11] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:automationcheckout_1791836909882@gmail.cominto elementBy.cssSelector: [data-qa='login-email']
+[DEBUG] - [12-10-2026 23:29:11] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [12-10-2026 23:29:11] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:P@ssw0rdinto elementBy.xpath: //*[@data-qa='login-password']
+[INFO] - [12-10-2026 23:29:11] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (287, 417)
+[INFO] - [12-10-2026 23:29:11] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (287, 417)
+[INFO] - [12-10-2026 23:29:12] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: [data-qa='login-button']
+[DEBUG] - [12-10-2026 23:29:12] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[INFO] - [12-10-2026 23:29:12] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.tagName: btextAutomation_Checkout
+[INFO] - [12-10-2026 23:29:12] [main] [com.automationexercise.listeners.TestNGListeners] - Test case loginToAccountpassed
+[INFO] - [12-10-2026 23:29:12] [main] [com.automationexercise.listeners.TestNGListeners] - Test case addProductsToCartstarted
+[INFO] - [12-10-2026 23:29:13] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/products
+[DEBUG] - [12-10-2026 23:29:13] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[INFO] - [12-10-2026 23:29:13] [main] [com.automationexercise.utils.actions.ElementActions] - Hovered over element:By.xpath: //div[@class='productinfo text-center']/p[.='Men Tshirt']
+[INFO] - [12-10-2026 23:29:13] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (856, 603)
+[INFO] - [12-10-2026 23:29:13] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (856, 613)
+[INFO] - [12-10-2026 23:29:13] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (856, 855)
+[INFO] - [12-10-2026 23:29:13] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (856, 855)
+[INFO] - [12-10-2026 23:29:13] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //div[@class='overlay-content']/p[.='Men Tshirt']//following-sibling::a
+[DEBUG] - [12-10-2026 23:29:13] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['addedToCart']
+[INFO] - [12-10-2026 23:29:13] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:29:14] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:29:14] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:29:14] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptextYour product has been added to cart.
+[INFO] - [12-10-2026 23:29:14] [main] [com.automationexercise.pages.components.ProductsPage] - Validating item added label text. Expected: Your product has been added to cart., Actual: Your product has been added to cart.
+[INFO] - [12-10-2026 23:29:14] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (722, 762)
+[INFO] - [12-10-2026 23:29:14] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (722, 762)
+[INFO] - [12-10-2026 23:29:14] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: p > [href="/view_cart"]
+[DEBUG] - [12-10-2026 23:29:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] - [12-10-2026 23:29:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['price']
+[DEBUG] - [12-10-2026 23:29:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['quantity']
+[DEBUG] - [12-10-2026 23:29:14] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['totalPrice']
+[INFO] - [12-10-2026 23:29:14] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //a[.='Men Tshirt']textMen Tshirt
+[INFO] - [12-10-2026 23:29:14] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: (//h4/a[.='Men Tshirt']//following::td[@class='cart_price']/p)[1]textRs. 400
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: (//h4/a[.='Men Tshirt']//following::td[@class='cart_quantity']/button)[1]text1
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //a[.='Men Tshirt']//following::p[@class='cart_total_price'][1]textRs. 400
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.listeners.TestNGListeners] - Test case addProductsToCartpassed
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.listeners.TestNGListeners] - Test case checkoutstarted
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (1105, 224)
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (1105, 224)
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //a[.='Proceed To Checkout']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_firstname address_lastname']textMr. Automation_Firstname Automation_Lastname
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_address1 address_address2'][1]textAutomation_Company
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_address1 address_address2'][2]textAutomation_Address1
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_address1 address_address2'][3]textAutomation_Address2
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_city address_state_name address_postcode']text12345 Automation_City Automation_State
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_country_name']textIndia
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_phone']text1234567890
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [12-10-2026 23:29:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_firstname address_lastname']textMr. Automation_Firstname Automation_Lastname
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_address1 address_address2'][1]textAutomation_Company
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_address1 address_address2'][2]textAutomation_Address1
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_address1 address_address2'][3]textAutomation_Address2
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_city address_state_name address_postcode']text12345 Automation_City Automation_State
+[INFO] - [12-10-2026 23:29:15] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_country_name']textIndia
+[INFO] - [12-10-2026 23:29:16] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_phone']text1234567890
+[INFO] - [12-10-2026 23:29:16] [main] [com.automationexercise.listeners.TestNGListeners] - Test case checkoutpassed
+[INFO] - [12-10-2026 23:29:16] [main] [com.automationexercise.listeners.TestNGListeners] - Test case inputPaymentInfostarted
+[DEBUG] - [12-10-2026 23:29:16] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['commentOfOrder']
+[INFO] - [12-10-2026 23:29:16] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (190, 1003)
+[INFO] - [12-10-2026 23:29:16] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (190, 1003)
+[INFO] - [12-10-2026 23:29:16] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //textarea
+[INFO] - [12-10-2026 23:29:16] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:good productinto elementBy.xpath: //textarea
+[INFO] - [12-10-2026 23:29:16] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (1160, 1147)
+[INFO] - [12-10-2026 23:29:16] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (1160, 1147)
+[INFO] - [12-10-2026 23:29:16] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //a[@class='btn btn-default check_out']
+[DEBUG] - [12-10-2026 23:29:16] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['paymentData']['nameOnCard']
+[DEBUG] - [12-10-2026 23:29:16] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['paymentData']['cardNumber']
+[DEBUG] - [12-10-2026 23:29:16] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['paymentData']['cvc']
+[DEBUG] - [12-10-2026 23:29:16] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['paymentData']['expirationMonth']
+[DEBUG] - [12-10-2026 23:29:16] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['paymentData']['expirationYear']
+[INFO] - [12-10-2026 23:29:16] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:automation testinto elementBy.xpath: //input[@data-qa='name-on-card']
+[INFO] - [12-10-2026 23:29:16] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:1234567890123456into elementBy.xpath: //input[@data-qa='card-number']
+[INFO] - [12-10-2026 23:29:16] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:123into elementBy.xpath: //input[@data-qa='cvc']
+[INFO] - [12-10-2026 23:29:17] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:12into elementBy.xpath: //input[@data-qa='expiry-month']
+[INFO] - [12-10-2026 23:29:17] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:2028into elementBy.xpath: //input[@data-qa='expiry-year']
+[INFO] - [12-10-2026 23:29:17] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (595, 548)
+[INFO] - [12-10-2026 23:29:17] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (595, 548)
+[INFO] - [12-10-2026 23:29:17] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //button[@data-qa='pay-button']
+[DEBUG] - [12-10-2026 23:29:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['orderConfirmed']
+[INFO] - [12-10-2026 23:29:18] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //p[.='Congratulations! Your order has been confirmed!']textCongratulations! Your order has been confirmed!
+[INFO] - [12-10-2026 23:29:18] [main] [com.automationexercise.listeners.TestNGListeners] - Test case inputPaymentInfopassed
+[INFO] - [12-10-2026 23:29:18] [main] [com.automationexercise.listeners.TestNGListeners] - Test case deleteAccountAsPostConditionstarted
+[DEBUG] - [12-10-2026 23:29:18] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [12-10-2026 23:29:18] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [12-10-2026 23:29:19] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [12-10-2026 23:29:19] [main] [com.automationexercise.listeners.TestNGListeners] - Test case deleteAccountAsPostConditionpassed
+[INFO] - [12-10-2026 23:29:19] [main] [com.automationexercise.listeners.TestNGListeners] - Test case downloadInvoicestarted
+[INFO] - [12-10-2026 23:29:19] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (307, 339)
+[INFO] - [12-10-2026 23:29:19] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (307, 339)
+[INFO] - [12-10-2026 23:29:20] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //a[.='Download Invoice']
+[DEBUG] - [12-10-2026 23:29:20] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invoiceName']
+[INFO] - [12-10-2026 23:29:20] [main] [com.automationexercise.listeners.TestNGListeners] - Test case downloadInvoicepassed
+[INFO] - [12-10-2026 23:29:20] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:29:20] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:29:22] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:29:23] [main] [com.automationexercise.listeners.TestNGListeners] - Test case inValidLoginUsingInvalidEmailTCstarted
+[DEBUG] - [12-10-2026 23:29:23] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [12-10-2026 23:29:23] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [12-10-2026 23:29:23] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [12-10-2026 23:29:23] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [12-10-2026 23:29:23] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[INFO] - [12-10-2026 23:29:23] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [12-10-2026 23:29:23] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/login
+[DEBUG] - [12-10-2026 23:29:23] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[INFO] - [12-10-2026 23:29:24] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:automationtest_@gmail.cominto elementBy.cssSelector: [data-qa='login-email']
+[DEBUG] - [12-10-2026 23:29:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [12-10-2026 23:29:24] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:P@ssw0rdinto elementBy.xpath: //*[@data-qa='login-password']
+[INFO] - [12-10-2026 23:29:24] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (287, 417)
+[INFO] - [12-10-2026 23:29:24] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (287, 417)
+[INFO] - [12-10-2026 23:29:24] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: [data-qa='login-button']
+[DEBUG] - [12-10-2026 23:29:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['error']
+[INFO] - [12-10-2026 23:29:24] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .login-form  ptextYour email or password is incorrect!
+[DEBUG] - [12-10-2026 23:29:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [12-10-2026 23:29:24] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [12-10-2026 23:29:25] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [12-10-2026 23:29:25] [main] [com.automationexercise.listeners.TestNGListeners] - Test case inValidLoginUsingInvalidEmailTCpassed
+[INFO] - [12-10-2026 23:29:25] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:29:25] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:29:27] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:29:27] [main] [com.automationexercise.listeners.TestNGListeners] - Test case inValidLoginUsingInvalidPasswordTCstarted
+[DEBUG] - [12-10-2026 23:29:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [12-10-2026 23:29:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [12-10-2026 23:29:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [12-10-2026 23:29:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [12-10-2026 23:29:27] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[INFO] - [12-10-2026 23:29:27] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [12-10-2026 23:29:28] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/login
+[DEBUG] - [12-10-2026 23:29:28] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[INFO] - [12-10-2026 23:29:28] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:automationtest_1791836909888@gmail.cominto elementBy.cssSelector: [data-qa='login-email']
+[DEBUG] - [12-10-2026 23:29:28] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [12-10-2026 23:29:28] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:P@ssw0rd1791836909888into elementBy.xpath: //*[@data-qa='login-password']
+[INFO] - [12-10-2026 23:29:28] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (287, 417)
+[INFO] - [12-10-2026 23:29:28] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (287, 417)
+[INFO] - [12-10-2026 23:29:28] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: [data-qa='login-button']
+[DEBUG] - [12-10-2026 23:29:28] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['error']
+[INFO] - [12-10-2026 23:29:28] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .login-form  ptextYour email or password is incorrect!
+[DEBUG] - [12-10-2026 23:29:28] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [12-10-2026 23:29:28] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [12-10-2026 23:29:29] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [12-10-2026 23:29:29] [main] [com.automationexercise.listeners.TestNGListeners] - Test case inValidLoginUsingInvalidPasswordTCpassed
+[INFO] - [12-10-2026 23:29:29] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:29:29] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:29:31] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:29:31] [main] [com.automationexercise.listeners.TestNGListeners] - Test case validLoginTCstarted
+[DEBUG] - [12-10-2026 23:29:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [12-10-2026 23:29:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [12-10-2026 23:29:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [12-10-2026 23:29:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [12-10-2026 23:29:31] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[INFO] - [12-10-2026 23:29:32] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [12-10-2026 23:29:32] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/login
+[DEBUG] - [12-10-2026 23:29:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[INFO] - [12-10-2026 23:29:32] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:automationtest_1791836909888@gmail.cominto elementBy.cssSelector: [data-qa='login-email']
+[DEBUG] - [12-10-2026 23:29:32] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [12-10-2026 23:29:32] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:P@ssw0rdinto elementBy.xpath: //*[@data-qa='login-password']
+[INFO] - [12-10-2026 23:29:32] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (287, 417)
+[INFO] - [12-10-2026 23:29:32] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (287, 417)
+[INFO] - [12-10-2026 23:29:33] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: [data-qa='login-button']
+[DEBUG] - [12-10-2026 23:29:33] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[INFO] - [12-10-2026 23:29:33] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.tagName: btextAutomation_Test
+[DEBUG] - [12-10-2026 23:29:33] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [12-10-2026 23:29:33] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [12-10-2026 23:29:34] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [12-10-2026 23:29:34] [main] [com.automationexercise.listeners.TestNGListeners] - Test case validLoginTCpassed
+[INFO] - [12-10-2026 23:29:34] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:29:34] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:29:36] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:29:36] [main] [com.automationexercise.listeners.TestNGListeners] - Test case registerNewAccountstarted
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [12-10-2026 23:29:36] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [12-10-2026 23:29:37] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [12-10-2026 23:29:37] [main] [com.automationexercise.listeners.TestNGListeners] - Test case registerNewAccountpassed
+[INFO] - [12-10-2026 23:29:37] [main] [com.automationexercise.listeners.TestNGListeners] - Test case loginToAccountstarted
+[INFO] - [12-10-2026 23:29:38] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/login
+[DEBUG] - [12-10-2026 23:29:38] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[INFO] - [12-10-2026 23:29:38] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:automationcheckout_1791836909891@gmail.cominto elementBy.cssSelector: [data-qa='login-email']
+[DEBUG] - [12-10-2026 23:29:38] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [12-10-2026 23:29:38] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:P@ssw0rdinto elementBy.xpath: //*[@data-qa='login-password']
+[INFO] - [12-10-2026 23:29:38] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (287, 417)
+[INFO] - [12-10-2026 23:29:38] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (287, 417)
+[INFO] - [12-10-2026 23:29:39] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: [data-qa='login-button']
+[DEBUG] - [12-10-2026 23:29:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[INFO] - [12-10-2026 23:29:39] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.tagName: btextAutomation_Checkout
+[INFO] - [12-10-2026 23:29:39] [main] [com.automationexercise.listeners.TestNGListeners] - Test case loginToAccountpassed
+[INFO] - [12-10-2026 23:29:39] [main] [com.automationexercise.listeners.TestNGListeners] - Test case addProductsToCartstarted
+[INFO] - [12-10-2026 23:29:39] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/products
+[DEBUG] - [12-10-2026 23:29:39] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[INFO] - [12-10-2026 23:29:40] [main] [com.automationexercise.utils.actions.ElementActions] - Hovered over element:By.xpath: //div[@class='productinfo text-center']/p[.='Men Tshirt']
+[INFO] - [12-10-2026 23:29:40] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (856, 676)
+[INFO] - [12-10-2026 23:29:40] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (856, 701)
+[INFO] - [12-10-2026 23:29:40] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (856, 841)
+[INFO] - [12-10-2026 23:29:40] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (856, 841)
+[INFO] - [12-10-2026 23:29:40] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //div[@class='overlay-content']/p[.='Men Tshirt']//following-sibling::a
+[DEBUG] - [12-10-2026 23:29:40] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['addedToCart']
+[INFO] - [12-10-2026 23:29:40] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:29:40] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:29:40] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:29:40] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptextYour product has been added to cart.
+[INFO] - [12-10-2026 23:29:40] [main] [com.automationexercise.pages.components.ProductsPage] - Validating item added label text. Expected: Your product has been added to cart., Actual: Your product has been added to cart.
+[INFO] - [12-10-2026 23:29:40] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (722, 745)
+[INFO] - [12-10-2026 23:29:40] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (722, 745)
+[INFO] - [12-10-2026 23:29:41] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: p > [href="/view_cart"]
+[DEBUG] - [12-10-2026 23:29:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] - [12-10-2026 23:29:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['price']
+[DEBUG] - [12-10-2026 23:29:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['quantity']
+[DEBUG] - [12-10-2026 23:29:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['totalPrice']
+[INFO] - [12-10-2026 23:29:41] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //a[.='Men Tshirt']textMen Tshirt
+[INFO] - [12-10-2026 23:29:41] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: (//h4/a[.='Men Tshirt']//following::td[@class='cart_price']/p)[1]textRs. 400
+[INFO] - [12-10-2026 23:29:41] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: (//h4/a[.='Men Tshirt']//following::td[@class='cart_quantity']/button)[1]text1
+[INFO] - [12-10-2026 23:29:41] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //a[.='Men Tshirt']//following::p[@class='cart_total_price'][1]textRs. 400
+[INFO] - [12-10-2026 23:29:41] [main] [com.automationexercise.listeners.TestNGListeners] - Test case addProductsToCartpassed
+[INFO] - [12-10-2026 23:29:41] [main] [com.automationexercise.listeners.TestNGListeners] - Test case checkoutstarted
+[INFO] - [12-10-2026 23:29:41] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (1105, 224)
+[INFO] - [12-10-2026 23:29:41] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (1105, 224)
+[INFO] - [12-10-2026 23:29:41] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //a[.='Proceed To Checkout']
+[DEBUG] - [12-10-2026 23:29:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [12-10-2026 23:29:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [12-10-2026 23:29:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [12-10-2026 23:29:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [12-10-2026 23:29:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [12-10-2026 23:29:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [12-10-2026 23:29:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [12-10-2026 23:29:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [12-10-2026 23:29:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [12-10-2026 23:29:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [12-10-2026 23:29:41] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_firstname address_lastname']textMr. Automation_Firstname Automation_Lastname
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_address1 address_address2'][1]textAutomation_Company
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_address1 address_address2'][2]textAutomation_Address1
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_address1 address_address2'][3]textAutomation_Address2
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_city address_state_name address_postcode']text12345 Automation_City Automation_State
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_country_name']textIndia
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_delivery']/li[@class='address_phone']text1234567890
+[DEBUG] - [12-10-2026 23:29:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [12-10-2026 23:29:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [12-10-2026 23:29:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [12-10-2026 23:29:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [12-10-2026 23:29:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [12-10-2026 23:29:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [12-10-2026 23:29:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [12-10-2026 23:29:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [12-10-2026 23:29:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [12-10-2026 23:29:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [12-10-2026 23:29:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_firstname address_lastname']textMr. Automation_Firstname Automation_Lastname
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_address1 address_address2'][1]textAutomation_Company
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_address1 address_address2'][2]textAutomation_Address1
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_address1 address_address2'][3]textAutomation_Address2
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_city address_state_name address_postcode']text12345 Automation_City Automation_State
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_country_name']textIndia
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //ul[@id='address_invoice']/li[@class='address_phone']text1234567890
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.listeners.TestNGListeners] - Test case checkoutpassed
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.listeners.TestNGListeners] - Test case inputPaymentInfostarted
+[DEBUG] - [12-10-2026 23:29:42] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['commentOfOrder']
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (190, 1003)
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (190, 1003)
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //textarea
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:good productinto elementBy.xpath: //textarea
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (1160, 1147)
+[INFO] - [12-10-2026 23:29:42] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (1160, 1147)
+[INFO] - [12-10-2026 23:29:43] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //a[@class='btn btn-default check_out']
+[DEBUG] - [12-10-2026 23:29:43] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['paymentData']['nameOnCard']
+[DEBUG] - [12-10-2026 23:29:43] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['paymentData']['cardNumber']
+[DEBUG] - [12-10-2026 23:29:43] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['paymentData']['cvc']
+[DEBUG] - [12-10-2026 23:29:43] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['paymentData']['expirationMonth']
+[DEBUG] - [12-10-2026 23:29:43] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['paymentData']['expirationYear']
+[INFO] - [12-10-2026 23:29:43] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:automation testinto elementBy.xpath: //input[@data-qa='name-on-card']
+[INFO] - [12-10-2026 23:29:43] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:1234567890123456into elementBy.xpath: //input[@data-qa='card-number']
+[INFO] - [12-10-2026 23:29:43] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:123into elementBy.xpath: //input[@data-qa='cvc']
+[INFO] - [12-10-2026 23:29:43] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:12into elementBy.xpath: //input[@data-qa='expiry-month']
+[INFO] - [12-10-2026 23:29:43] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:2028into elementBy.xpath: //input[@data-qa='expiry-year']
+[INFO] - [12-10-2026 23:29:43] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (595, 548)
+[INFO] - [12-10-2026 23:29:43] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (595, 548)
+[INFO] - [12-10-2026 23:29:45] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //button[@data-qa='pay-button']
+[DEBUG] - [12-10-2026 23:29:45] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['orderConfirmed']
+[INFO] - [12-10-2026 23:29:45] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //p[.='Congratulations! Your order has been confirmed!']textCongratulations! Your order has been confirmed!
+[INFO] - [12-10-2026 23:29:45] [main] [com.automationexercise.listeners.TestNGListeners] - Test case inputPaymentInfopassed
+[INFO] - [12-10-2026 23:29:45] [main] [com.automationexercise.listeners.TestNGListeners] - Test case deleteAccountAsPostConditionstarted
+[DEBUG] - [12-10-2026 23:29:45] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [12-10-2026 23:29:45] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [12-10-2026 23:29:46] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [12-10-2026 23:29:46] [main] [com.automationexercise.listeners.TestNGListeners] - Test case deleteAccountAsPostConditionpassed
+[INFO] - [12-10-2026 23:29:46] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:29:46] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:29:48] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:29:48] [main] [com.automationexercise.listeners.TestNGListeners] - Test case addProductToCartSuccessfullyWithoutLoginTCstarted
+[DEBUG] - [12-10-2026 23:29:48] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[INFO] - [12-10-2026 23:29:48] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (790, 1048)
+[INFO] - [12-10-2026 23:29:48] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (790, 1048)
+[INFO] - [12-10-2026 23:29:49] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //p[.='Men Tshirt']//following::div[@class='choose'][1]
+[DEBUG] - [12-10-2026 23:29:49] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['quantity']
+[INFO] - [12-10-2026 23:29:49] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:2into elementBy.xpath: //input[@name='quantity']
+[INFO] - [12-10-2026 23:29:49] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (1187, 298)
+[INFO] - [12-10-2026 23:29:49] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (1187, 298)
+[INFO] - [12-10-2026 23:29:49] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //button[@class='btn btn-default cart']
+[DEBUG] - [12-10-2026 23:29:49] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['addedToCart']
+[INFO] - [12-10-2026 23:29:49] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //div[@class='modal-body']/p[1]text
+[INFO] - [12-10-2026 23:29:49] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //div[@class='modal-body']/p[1]text
+[INFO] - [12-10-2026 23:29:50] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //div[@class='modal-body']/p[1]text
+[INFO] - [12-10-2026 23:29:50] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //div[@class='modal-body']/p[1]textYour product has been added to cart.
+[INFO] - [12-10-2026 23:29:50] [main] [com.automationexercise.pages.components.ProductDetailsPage] - Validating added to cart message. Expected: Your product has been added to cart., Actual: Your product has been added to cart.
+[INFO] - [12-10-2026 23:29:50] [main] [com.automationexercise.listeners.TestNGListeners] - Test case addProductToCartSuccessfullyWithoutLoginTCpassed
+[INFO] - [12-10-2026 23:29:50] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:29:50] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:29:52] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:29:52] [main] [com.automationexercise.listeners.TestNGListeners] - Test case navigateToProductDetailsPageWithoutLoginTCstarted
+[INFO] - [12-10-2026 23:29:53] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/products
+[DEBUG] - [12-10-2026 23:29:53] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[INFO] - [12-10-2026 23:29:53] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (790, 732)
+[INFO] - [12-10-2026 23:29:53] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (790, 732)
+[INFO] - [12-10-2026 23:29:54] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //p[.='Men Tshirt']//following::div[@class='choose'][1]
+[DEBUG] - [12-10-2026 23:29:54] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] - [12-10-2026 23:29:54] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['price']
+[INFO] - [12-10-2026 23:29:54] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: // div[@class='col-sm-7']//h2[.='Men Tshirt']textMen Tshirt
+[INFO] - [12-10-2026 23:29:54] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //div[@class='product-information']//h2[.='Men Tshirt']//following-sibling::span/spantextRs. 400
+[INFO] - [12-10-2026 23:29:54] [main] [com.automationexercise.pages.components.ProductDetailsPage] - Validating product details for product: Men Tshirt with price: Rs. 400
+[INFO] - [12-10-2026 23:29:54] [main] [com.automationexercise.listeners.TestNGListeners] - Test case navigateToProductDetailsPageWithoutLoginTCpassed
+[INFO] - [12-10-2026 23:29:54] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:29:54] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:29:56] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:29:56] [main] [com.automationexercise.listeners.TestNGListeners] - Test case verifyReviewMessageWithoutLoginTCstarted
+[INFO] - [12-10-2026 23:29:56] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/products
+[DEBUG] - [12-10-2026 23:29:56] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[INFO] - [12-10-2026 23:29:56] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (790, 732)
+[INFO] - [12-10-2026 23:29:56] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (790, 732)
+[INFO] - [12-10-2026 23:29:57] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //p[.='Men Tshirt']//following::div[@class='choose'][1]
+[DEBUG] - [12-10-2026 23:29:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['review']['name']
+[DEBUG] - [12-10-2026 23:29:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['review']['email']
+[DEBUG] - [12-10-2026 23:29:57] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['review']['reviewText']
+[INFO] - [12-10-2026 23:29:57] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:mohamed hassaninto elementBy.id: name
+[INFO] - [12-10-2026 23:29:58] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:mohamedhassanii565@yahoo.cominto elementBy.id: email
+[INFO] - [12-10-2026 23:29:58] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Great Product!into elementBy.id: review
+[INFO] - [12-10-2026 23:29:58] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (1237, 904)
+[INFO] - [12-10-2026 23:29:58] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (1237, 904)
+[INFO] - [12-10-2026 23:29:58] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.id: button-review
+[DEBUG] - [12-10-2026 23:29:58] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['reviewSuccessMessage']
+[INFO] - [12-10-2026 23:29:58] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //div[@class='alert-success alert']//spantextThank you for your review.
+[INFO] - [12-10-2026 23:29:58] [main] [com.automationexercise.listeners.TestNGListeners] - Test case verifyReviewMessageWithoutLoginTCpassed
+[INFO] - [12-10-2026 23:29:58] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:29:58] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:29:59] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:29:59] [main] [com.automationexercise.listeners.TestNGListeners] - Test case addProductToCartWithoutLoginTCstarted
+[INFO] - [12-10-2026 23:30:00] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/products
+[DEBUG] - [12-10-2026 23:30:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[INFO] - [12-10-2026 23:30:00] [main] [com.automationexercise.utils.actions.ElementActions] - Hovered over element:By.xpath: //div[@class='productinfo text-center']/p[.='Men Tshirt']
+[INFO] - [12-10-2026 23:30:00] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (856, 613)
+[INFO] - [12-10-2026 23:30:00] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (856, 621)
+[INFO] - [12-10-2026 23:30:00] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (856, 861)
+[INFO] - [12-10-2026 23:30:00] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (856, 861)
+[INFO] - [12-10-2026 23:30:00] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //div[@class='overlay-content']/p[.='Men Tshirt']//following-sibling::a
+[DEBUG] - [12-10-2026 23:30:00] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['addedToCart']
+[INFO] - [12-10-2026 23:30:00] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:30:01] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:30:01] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptext
+[INFO] - [12-10-2026 23:30:01] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .modal-body > ptextYour product has been added to cart.
+[INFO] - [12-10-2026 23:30:01] [main] [com.automationexercise.pages.components.ProductsPage] - Validating item added label text. Expected: Your product has been added to cart., Actual: Your product has been added to cart.
+[INFO] - [12-10-2026 23:30:01] [main] [com.automationexercise.listeners.TestNGListeners] - Test case addProductToCartWithoutLoginTCpassed
+[INFO] - [12-10-2026 23:30:01] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:30:01] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:30:03] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:30:03] [main] [com.automationexercise.listeners.TestNGListeners] - Test case searchForProductWithoutLoginTCstarted
+[INFO] - [12-10-2026 23:30:04] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/products
+[DEBUG] - [12-10-2026 23:30:04] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['searchedProduct']['name']
+[INFO] - [12-10-2026 23:30:04] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Blue Topinto elementBy.id: search_product
+[INFO] - [12-10-2026 23:30:04] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (594, 453)
+[INFO] - [12-10-2026 23:30:04] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (594, 453)
+[INFO] - [12-10-2026 23:30:05] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.id: submit_search
+[INFO] - [12-10-2026 23:30:05] [main] [com.automationexercise.utils.actions.ElementActions] - Hovered over element:By.xpath: //div[@class='productinfo text-center']/p[.='Blue Top']
+[DEBUG] - [12-10-2026 23:30:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['searchedProduct']['name']
+[DEBUG] - [12-10-2026 23:30:05] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['searchedProduct']['price']
+[INFO] - [12-10-2026 23:30:06] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //div[@class='overlay-content']/p[.='Blue Top']textBlue Top
+[INFO] - [12-10-2026 23:30:06] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.xpath: //div[@class='overlay-content']/p[.='Blue Top']//preceding-sibling::h2textRs. 500
+[INFO] - [12-10-2026 23:30:06] [main] [com.automationexercise.pages.components.ProductsPage] - Validating product details for product: Blue Top with price: Rs. 500
+[INFO] - [12-10-2026 23:30:06] [main] [com.automationexercise.listeners.TestNGListeners] - Test case searchForProductWithoutLoginTCpassed
+[INFO] - [12-10-2026 23:30:06] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:30:06] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:30:08] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:30:08] [main] [com.automationexercise.listeners.TestNGListeners] - Test case ValidSignUpTCstarted
+[DEBUG] - [12-10-2026 23:30:08] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [12-10-2026 23:30:08] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[INFO] - [12-10-2026 23:30:09] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/login
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[INFO] - [12-10-2026 23:30:09] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Testinto elementBy.cssSelector: [data-qa='signup-name']
+[INFO] - [12-10-2026 23:30:09] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:automationtest_1791837008241@gmail.cominto elementBy.cssSelector: [data-qa='signup-email']
+[INFO] - [12-10-2026 23:30:09] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (775, 404)
+[INFO] - [12-10-2026 23:30:09] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (775, 404)
+[INFO] - [12-10-2026 23:30:09] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: [data-qa='signup-button']
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [12-10-2026 23:30:09] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [12-10-2026 23:30:09] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (307, 323)
+[INFO] - [12-10-2026 23:30:09] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (307, 323)
+[INFO] - [12-10-2026 23:30:09] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.xpath: //input[@value='Mr']
+[INFO] - [12-10-2026 23:30:09] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:P@ssw0rdinto elementBy.id: password
+[INFO] - [12-10-2026 23:30:09] [main] [com.automationexercise.utils.actions.ElementActions] - Selected value:  '1' from dropdown element: By.id: days
+[INFO] - [12-10-2026 23:30:10] [main] [com.automationexercise.utils.actions.ElementActions] - Selected value:  'January' from dropdown element: By.id: months
+[INFO] - [12-10-2026 23:30:10] [main] [com.automationexercise.utils.actions.ElementActions] - Selected value:  '2000' from dropdown element: By.id: years
+[INFO] - [12-10-2026 23:30:10] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (287, 672)
+[INFO] - [12-10-2026 23:30:10] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (287, 672)
+[INFO] - [12-10-2026 23:30:10] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.id: newsletter
+[INFO] - [12-10-2026 23:30:10] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (287, 697)
+[INFO] - [12-10-2026 23:30:10] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (287, 697)
+[INFO] - [12-10-2026 23:30:10] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.id: optin
+[INFO] - [12-10-2026 23:30:10] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Firstnameinto elementBy.cssSelector: [data-qa='first_name']
+[INFO] - [12-10-2026 23:30:10] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Lastnameinto elementBy.cssSelector: [data-qa='last_name']
+[INFO] - [12-10-2026 23:30:10] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Companyinto elementBy.cssSelector: [data-qa='company']
+[INFO] - [12-10-2026 23:30:11] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Address1into elementBy.cssSelector: [data-qa='address']
+[INFO] - [12-10-2026 23:30:11] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Address2into elementBy.cssSelector: [data-qa='address2']
+[INFO] - [12-10-2026 23:30:11] [main] [com.automationexercise.utils.actions.ElementActions] - Selected value:  'India' from dropdown element: By.cssSelector: [data-qa='country']
+[INFO] - [12-10-2026 23:30:11] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Stateinto elementBy.cssSelector: [data-qa='state']
+[INFO] - [12-10-2026 23:30:11] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Cityinto elementBy.cssSelector: [data-qa='city']
+[INFO] - [12-10-2026 23:30:11] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:12345into elementBy.cssSelector: [data-qa='zipcode']
+[INFO] - [12-10-2026 23:30:11] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:1234567890into elementBy.cssSelector: [data-qa='mobile_number']
+[INFO] - [12-10-2026 23:30:12] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (287, 1627)
+[INFO] - [12-10-2026 23:30:12] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (287, 1627)
+[INFO] - [12-10-2026 23:30:12] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: [data-qa='create-account']
+[INFO] - [12-10-2026 23:30:13] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [12-10-2026 23:30:13] [main] [com.automationexercise.listeners.TestNGListeners] - Test case ValidSignUpTCpassed
+[INFO] - [12-10-2026 23:30:14] [main] [com.automationexercise.drivers.GUIDriver] - browser is initializing [Chrome]
+[INFO] - [12-10-2026 23:30:14] [main] [com.automationexercise.drivers.GUIDriver] - Starting driver for browser: CHROME
+[INFO] - [12-10-2026 23:30:15] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com
+[INFO] - [12-10-2026 23:30:15] [main] [com.automationexercise.listeners.TestNGListeners] - Test case verifyErrorMessageWhenAccountCreatedBeforestarted
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['email']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['password']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['titleMale']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['day']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['month']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['year']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['firstName']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['lastName']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['company']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address1']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address2']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['country']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['state']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['city']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['zipcode']
+[DEBUG] - [12-10-2026 23:30:15] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['mobileNumber']
+[INFO] - [12-10-2026 23:30:16] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 201, "message": "User created!"}</body>
+</html>
+[INFO] - [12-10-2026 23:30:16] [main] [com.automationexercise.utils.actions.BrowserActions] - Navigated to URL : https://automationexercise.com/login
+[DEBUG] - [12-10-2026 23:30:16] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['name']
+[INFO] - [12-10-2026 23:30:17] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:Automation_Testinto elementBy.cssSelector: [data-qa='signup-name']
+[INFO] - [12-10-2026 23:30:17] [main] [com.automationexercise.utils.actions.ElementActions] - Typed text:automationtest_1791837015789@gmail.cominto elementBy.cssSelector: [data-qa='signup-email']
+[INFO] - [12-10-2026 23:30:17] [main] [com.automationexercise.utils.actions.ElementActions] - initialLocation: (775, 404)
+[INFO] - [12-10-2026 23:30:17] [main] [com.automationexercise.utils.actions.ElementActions] - finalLocation: (775, 404)
+[INFO] - [12-10-2026 23:30:17] [main] [com.automationexercise.utils.actions.ElementActions] - Clicked on Element:By.cssSelector: [data-qa='signup-button']
+[DEBUG] - [12-10-2026 23:30:17] [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['errorSignup']
+[ERROR] - [12-10-2026 23:30:17] [main] [com.automationexercise.utils.actions.ElementActions] - Failed to retrieve text from element: By.cssSelector: .signup-form  p no such element: Unable to locate element: {"method":"css selector","selector":".signup-form  p"}
+  (Session info: chrome=155.0.8059.39)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.49.0', revision: 'bedb24f bedb24f6f703876e7e4c5d506f0d697eb358c720'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [16be91e0fb0b0ba72fe6ddfb9c360611, findElement {value=.signup-form  p, using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 155.0.8059.39, chrome: {chromedriverVersion: 155.0.8059.39 (3ff7ac5a9224..., userDataDir: C:\Users\MOHAME~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52067}, goog:processID: 3820, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52067/devtoo..., se:cdpVersion: 155.0.8059.39, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 16be91e0fb0b0ba72fe6ddfb9c360611
+[INFO] - [12-10-2026 23:30:17] [main] [com.automationexercise.utils.actions.ElementActions] - Retrieved text from element:By.cssSelector: .signup-form  ptextEmail Address already exist!
+[INFO] - [12-10-2026 23:30:18] [main] [com.automationexercise.apis.UserManagementAPI] - <html>
+  <body>{"responseCode": 200, "message": "Account deleted!"}</body>
+</html>
+[INFO] - [12-10-2026 23:30:18] [main] [com.automationexercise.listeners.TestNGListeners] - Test case verifyErrorMessageWhenAccountCreatedBeforepassed
+[INFO] - [12-10-2026 23:30:19] [main] [com.automationexercise.listeners.TestNGListeners] - Test Execution Finished
+[INFO] - [12-10-2026 23:30:19] [main] [com.automationexercise.utils.TerminalUtils] - Executing command: C:\Users\mohamed hassan\.m2\repository\allure\allure-2.46.1\bin\allure.bat generate F:\software testing\automaion practical\DemoBlazeTAF\test-output\allure-results -o F:\software testing\automaion practical\DemoBlazeTAF\test-output\full-report --clean
+[INFO] - [12-10-2026 23:30:21] [main] [com.automationexercise.FileUtils] - Directory copied successfully.F:\software testing\automaion practical\DemoBlazeTAF\test-output\allure-results\history
+[INFO] - [12-10-2026 23:30:21] [main] [com.automationexercise.utils.TerminalUtils] - Executing command: C:\Users\mohamed hassan\.m2\repository\allure\allure-2.46.1\bin\allure.bat generate F:\software testing\automaion practical\DemoBlazeTAF\test-output\allure-results -o F:\software testing\automaion practical\DemoBlazeTAF\test-output\reports --clean --single-file
+[INFO] - [12-10-2026 23:30:23] [main] [com.automationexercise.FileUtils] - Target File Path: "F:\software testing\automaion practical\DemoBlazeTAF\test-output\reports\index.html", file was renamed to "AllureReport_2026-10-12_11-30-23.html".
