@@ -117,7 +117,7 @@ public class LoginTest extends BaseTest {
     }
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setup(){
         driver = new GUIDriver();
         new NavigationBarComponent(driver).navigate();
@@ -127,7 +127,7 @@ public class LoginTest extends BaseTest {
 
 
     }
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown(){
         driver.quitDriver();
 
