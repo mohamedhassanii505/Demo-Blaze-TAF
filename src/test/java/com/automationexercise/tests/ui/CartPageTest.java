@@ -76,7 +76,7 @@ public class CartPageTest extends BaseTest {
         testData = new JsonReader("cart-data");
     }
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setup(){
         driver = new GUIDriver();
         new NavigationBarComponent(driver).navigate();
@@ -86,7 +86,7 @@ public class CartPageTest extends BaseTest {
 
 
     }
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown(){
         driver.quitDriver();
 
